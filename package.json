@@ -1,0 +1,33 @@
+{
+  "name": "@dwk/11ty-multisite",
+  "version": "1.0.0",
+  "description": "A demonstration of how to setup 11ty for building multiple sites",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "test": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidwkeith/11ty-multisite.git"
+  },
+  "keywords": [
+    "11ty",
+    "template",
+    "multisite"
+  ],
+  "author": {
+    "name": "David W. Keith",
+    "email": "git@dwk.io",
+    "url": "https://dwk.io/"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidwkeith/11ty-multisite/issues"
+  },
+  "homepage": "https://github.com/davidwkeith/11ty-multisite#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
