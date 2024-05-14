@@ -17,3 +17,7 @@ Finally, the input and output directories are stored as global data since some p
 #### Serving
 - Site 1 `SITE=site-1 npx @11ty/eleventy --serve --quiet`
 - Site 2 `SITE=site-1 npx @11ty/eleventy --serve --quiet`
+
+## Deployment
+
+Hosts like Netlify support multiple targets from the same repo, just make sure to set the correct `env` variable and publish directory for each Build & Deploy.
