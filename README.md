@@ -21,3 +21,7 @@ Finally, the input and output directories are stored as global data since some p
 ## Deployment
 
 Hosts like Netlify support multiple targets from the same repo, just make sure to set the correct `env` variable and publish directory for each Build & Deploy.
+
+### Demo
+- [Site 1](https://11ty-multisite-site1.netlify.app)
+- [Site 2](https://11ty-multisite-site2.netlify.app)
