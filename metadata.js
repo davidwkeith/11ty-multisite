@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   sharedMessage: "This data is shared",
   githubURL: "https://github.com/davidwkeith/11ty-multisite"
 }

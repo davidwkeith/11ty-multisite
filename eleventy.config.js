@@ -5,7 +5,7 @@ const site = process.env.SITE || "site-1";
 const input = `sites/${site}/`;
 const output = `public/${site}`;
 
-module.exports = function(eleventyConfig) {
+export default function(eleventyConfig) {
 
   // Passthrough examples
   eleventyConfig.addPassthroughCopy(`${input}/**/*.{svg,webp,png,jpeg,gif}`);

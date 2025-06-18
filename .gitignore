@@ -1,0 +1,5 @@
+.env
+.cache/
+.vscode/
+node_modules/
+public/
