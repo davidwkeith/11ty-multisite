@@ -1,0 +1,16 @@
+<script>
+  // Declare "title" as a component prop
+  export const props = ["title"];
+</script>
+
+<template>
+  <!doctype html>
+  <html>
+    <head>
+      <title>{title}</title>
+    </head>
+    <body>
+      <slot />
+    </body>
+  </html>
+</template>

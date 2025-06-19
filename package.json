@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/davidwkeith/11ty-multisite#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.1"
+    "@11ty/eleventy": "^3.1.1",
+    "@11ty/eleventy-plugin-webc": "^0.11.2"
   }
 }
