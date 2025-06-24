@@ -1,6 +1,6 @@
 ---
 title: Site 2
-layout: base.html
+layout: base.webc
 ---
 
 # Hello from Site 2
